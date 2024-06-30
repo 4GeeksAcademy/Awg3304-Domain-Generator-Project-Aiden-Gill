@@ -1,1 +1,64 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+/* Our different color classes that will be scrambled through and chosen at random in our javascript */
+/* Via the getRandomColor() Function */
+.lightRed {
+  color: #d98880;
+}
+.red {
+  color: #f1948a;
+}
+.lightPurple {
+  color: #c39bd3;
+}
+.purple {
+  color: #bb8fce;
+}
+.lightBlue {
+  color: #7fb3d5;
+}
+.blue {
+  color: #85c1e9;
+}
+.lightTeal {
+  color: #76d7c4;
+}
+.teal {
+  color: #73c6b6;
+}
+.lightGreen {
+  color: #7dcea0;
+}
+.green {
+  color: #82e0aa;
+}
+.lightYellow {
+  color: #f7dc6f;
+}
+.yellow {
+  color: #f8c471;
+}
+.lightOrange {
+  color: #f5cba7;
+}
+.orange {
+  color: #e59866;
+}
+
+#button {
+  border-radius: 2px;
+  scale: 40%;
+}
+
+#elementsContainer {
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+ }
+
+body {
+justify-content: center;
+align-items: center;
+text-align: center;
+}
